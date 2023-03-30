@@ -29,7 +29,7 @@ body {
   margin: 0 0 40px 0;
   font-size: 50px;
   line-height: 65px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .section_care {
@@ -50,7 +50,8 @@ body {
 }
 
 .list {
-  padding-left: 20px;
+  padding: 0 0 0 20px;
+  margin: 0 0 40px 0;
 }
 
 .list_li {
@@ -60,13 +61,13 @@ body {
 }
 
 .img {
-  margin: 40px 0;
+  margin-bottom: 40px;
 }
 
 .section__title {
   margin: 0;
   line-height: 33px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .section__title-regular {
