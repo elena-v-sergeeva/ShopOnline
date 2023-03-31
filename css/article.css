@@ -38,56 +38,76 @@ body {
   color: #2d2d2d;
 }
 
-.section {
+.article {
   max-width: 1870px;
   padding: 90px 25px 25px 75px;
 }
 
-.section__сaption {
+.article__care {
+  max-width: 1095px;
+}
+
+.article__part {
+  margin: 0 0 40px 0;
+}
+
+.article__part:last-child{
+  margin-bottom: 0;
+}
+
+.article__сaption {
   margin: 0 0 40px 0;
   font-size: 50px;
   line-height: 65px;
   font-weight: 700;
 }
 
-.section_care {
-  max-width: 1095px;
-}
-
-.article__attachment {
-  margin-bottom: 40px;
-}
-
-.section__text {
-  margin: 0;
-  line-height: 33px;
-}
-
-.article {
-  margin-bottom: 40px;
-}
-
-.list {
-  padding: 0 0 0 20px;
-  margin: 0 0 40px 0;
-}
-
-.list_li {
-  font-size: 16px;
-  line-height: 24px;
-  color: #525252;
-}
-
-.img {
-  margin-bottom: 40px;
-}
-
-.section__title {
+.article__title {
   margin: 0;
   line-height: 33px;
   font-weight: 700;
 }
 
-.section__title-regular {
+.article__subtitle {
+  margin: 0; 
+  line-height: 33px;
   font-weight: 400;
+}
+
+.article__text {
+  margin: 0;
+  line-height: 33px;
+}
+
+.article__text-indent {
+  margin: 0;
+  line-height: 33px;
+  margin-bottom: 33px;
+}
+
+.nav {
+  margin: 0 0 33px 0;
+}
+
+.list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.list__item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
+}
+
+.list__link {
+  text-decoration: none;
+}
+
+.article__img-shoes {
+  margin: 17px 0 33px;
+}
+
+.article__img-funds {
+  margin: 27px 0 33px;
 }
