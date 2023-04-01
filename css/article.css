@@ -39,11 +39,7 @@ body {
   max-width: 1095px;
 }
 
-.article__part {
-  margin: 0 0 33px 0;
-}
-
-.article__part:last-child{
+.section__indent:last-child{
   margin-bottom: 0;
 }
 
@@ -64,6 +60,10 @@ body {
   margin: 0; 
   font-size: 22px;
   font-weight: 400;
+}
+
+.section__indent {
+  margin-bottom: 33px;
 }
 
 .article__text {
