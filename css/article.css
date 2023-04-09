@@ -39,13 +39,20 @@ body {
   max-width: 1095px;
 }
 
-.section,
-.section__care {
+.article__text {
+  margin: 0;
+}
+
+.article__text-indent {
+  margin: 0;
   margin-bottom: 33px;
 }
 
-.section:last-child,
-.section__care:last-child {
+.section {
+  margin-bottom: 33px;
+}
+
+.section:last-child {
   margin-bottom: 0;
 }
 
@@ -62,36 +69,26 @@ body {
   font-weight: 700;
 }
 
-.section__care-title {
+.section__title-care {
   margin: 0; 
   font-size: 22px;
   font-weight: 400;
 }
 
-.section__text {
-  margin: 0;
-}
-
-.article__text-indent,
-.section__text-indent {
-  margin: 0;
-  margin-bottom: 33px;
-}
-
-.article__nav {
+.nav {
   padding: 17px 0 23px;
 }
  
-.nav-list {
+.nav__list {
   padding: 0 0 0 20px;
   margin: 0;
 }
 
-.list__item {
+.nav__item {
   font-size: 16px;
 }
 
-.list__link {
+.nav__link {
   text-decoration: none;
   color: #525252;
 }
